@@ -1,0 +1,459 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body
+{
+	background: #E7E1D4;
+	font-size: 0.8em;
+	font-family: "Times New Roman" , serif;
+	margin: 0px;
+	padding: 0px;
+	color: #696969;
+}
+
+a:link, a:visited
+{
+	color: #70B7BA;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #F1433F;
+	text-decoration: none;
+}
+
+a:active
+{
+	color: #696969;
+}
+
+p
+{
+	margin-bottom: 10px;
+	line-height: 1.6em;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+	font-size: 1.5em;
+	color: #666666;
+	font-variant: small-caps;
+	text-transform: none;
+	font-weight: 200;
+	margin-bottom: 0px;
+	font-family: 'Salsa' , Arial, Sans-Serif;
+}
+
+h1
+{
+	font-size: 1.6em;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	font-family: 'Just Me Again Down Here' , Times New Roman, Serif;
+}
+
+h1 a:link, h1 a:visited, h1 a:hover
+{
+	color: #FFFFFF;
+}
+
+h2
+{
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+h3
+{
+	font-size: 1.2em;
+}
+
+h4
+{
+	font-size: 1.1em;
+}
+
+h5, h6
+{
+	font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+	margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page
+{
+	width: 960px;
+	background-color: #fff;
+	margin: 20px auto 0px auto;
+	border: 0px solid #fff;
+	border-radius: 15px;
+}
+
+.header
+{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	background: #3D4C53;
+	width: 100%;
+	border-radius: 15px;
+}
+
+.header h1
+{
+	font-weight: 700;
+	margin: 0px;
+	padding: 0px 0px 0px 20px;
+	color: #f9f9f9;
+	border: none;
+	line-height: 2em;
+	font-size: 2em;
+}
+
+.main
+{
+	padding: 0px 12px;
+	margin: 12px 8px 8px 8px;
+	min-height: 420px;
+}
+
+.leftCol
+{
+	padding: 6px 0px;
+	margin: 12px 8px 8px 8px;
+	width: 200px;
+	min-height: 200px;
+}
+
+.footer
+{
+	color: #4e5766;
+	padding: 8px 0px 0px 0px;
+	margin: 0px auto;
+	text-align: center;
+	line-height: normal;
+}
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.hideSkiplink
+{
+	background-color: #70B7BA;
+	width: 100%;
+}
+
+div.menu
+{
+	padding: 4px 0px 4px 8px;
+}
+
+div.menu ul
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	font-family: 'Salsa' , sans-serif;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+	background-color: #70B7BA;
+	border: 1px #70B7BA solid;
+	color: #FFFFFF;
+	display: block;
+	line-height: 1.35em;
+	padding: 4px 20px;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+div.menu ul li a:hover
+{
+	background-color: #F1433F;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+	background-color: #FFFFFF;
+	color: #70B7BA;
+	text-decoration: none;
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+	margin: 1em 0px;
+	padding: 1em;
+	border: 1px solid #ccc;
+}
+
+fieldset p
+{
+	margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+	display: block;
+}
+
+fieldset label.inline
+{
+	display: inline;
+}
+
+legend
+{
+	font-size: 1.1em;
+	font-weight: 600;
+	padding: 2px 4px 8px 4px;
+}
+
+input.textEntry
+{
+	width: 320px;
+	border: 1px solid #ccc;
+}
+
+input.passwordEntry
+{
+	width: 320px;
+	border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+	width: 42%;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+	clear: both;
+}
+
+.title
+{
+	display: block;
+	float: left;
+	text-align: left;
+	width: auto;
+}
+
+.loginDisplay
+{
+	font-size: 1.1em;
+	display: block;
+	text-align: right;
+	padding: 10px;
+	color: White;
+}
+
+.loginDisplay a:link
+{
+	color: white;
+}
+
+.loginDisplay a:visited
+{
+	color: white;
+}
+
+.loginDisplay a:hover
+{
+	color: white;
+}
+
+.failureNotification
+{
+	font-size: 1.2em;
+	color: Red;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+.submitButton
+{
+	text-align: right;
+	padding-right: 10px;
+}
+
+.MenuBlock
+{
+	float: left;
+	padding-left: 50px;
+}
+
+.Gridview
+{
+	margin-top: 20px;
+	width: 100%;
+	border-style: solid;
+	border-color: #E7E1D4;
+}
+
+.Gridview th
+{
+	font-family: 'Salsa' , Arial, Sans-Serif;
+	font-size: 0.9em;
+	font-weight: lighter;
+	color: #000000;
+	background-color: #E7E1D4;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	text-align: center;
+	border-style: none;
+}
+.Gridview td
+{
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	font-family: Times New Roman, Serif;
+	border-style: none;
+	text-align: center;
+}
+.Gridview tr
+{
+	color: Black;
+	background-color: White;
+	text-align: left;
+}
+
+.RegSummary
+{
+	float: left;
+	width: 50%;
+}
+
+.RegDiv
+{
+	float: right;
+	width: 40%;
+    margin-left: 10px;
+}
+
+.RegTable
+{
+	margin: 10px 20px 0px 20px;
+	width: 300px;
+}
+
+.RegTable td
+{
+	padding-bottom: 1em;
+    margin-left: 40px;
+}
+
+.RegForm
+{
+	width: 100%;
+    margin-left: 0px;
+}
+
+.RegPrecios 
+{
+	width: 40%;
+}
+
+.RegPrecios td
+{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.RegPrecios th:first-child 
+{
+	text-align: right;
+}
+
+.BuscDiv
+{
+	float: left;
+	width: 30%;
+}
+
+.BuscDiv table
+{
+	width: 100%;
+}
+
+.ResDiv
+{
+	float: right;
+	width: 60%;
+}
+
+.lastRow
+{
+	text-align: right;
+}
+
+.pendientes
+{
+	float: left;
+	width: 40%;
+}
+
+.activos 
+{
+	float: left;
+	width: 40%;
+	margin-left: 20px;
+}
+
+.profilePicture 
+{
+	max-width: 300px;
+	max-height: 300px;
+}
+
+/* Z-index of #mask must lower than #boxes .window */
+#mask
+{
+	position: absolute;
+	z-index: 9000;
+	background-color: #FFFFFF;
+	display: none;
+}
+
+#boxes .window
+{
+	position: fixed;
+	width: 440px;
+	height: 200px;
+	display: none;
+	z-index: 9999;
+	padding: 20px;
+}
+
+/* Customize your modal window here, you can add background image too */
+#boxes #dialog
+{
+	width: 250px;
+	height: 200px;
+}
+

@@ -1,0 +1,20 @@
+﻿<asp:Button Runat="Server"
+  Font-Name="Salsa"
+  Font-Size="1em"
+  Font-Bold="False"
+  BackColor="#F8F8F8"
+  ForeColor="#000000"
+  BorderStyle="Ridge"
+  BorderWidth="0"
+  Width="130px"/>
+<asp:DropDownList
+  Runat="Server"
+  BackColor="#FFFFFF"
+  ForeColor="#000000"
+  BorderWidth="0"/>
+
+<asp:Calendar runat="server"
+  TitleStyle-BackColor="#E7E1D4"
+  SelectedDayStyle-BackColor="#70B7BA"
+  ShowDayHeader="False"
+  />
